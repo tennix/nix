@@ -21,6 +21,7 @@ stdenv.mkDerivation {
     git
     nightlyRust
     openssl
+    perl # openssl crate requires Perl for configuration
     pkgconfig
     protobuf
     rustup

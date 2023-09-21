@@ -42,10 +42,14 @@ polybar
 ripgrep
 rofi
 rustup
+spice-vdagent
 starship
 sudo
+tailscale
 tokei
+tree
 ttf-noto-nerd
 wget
 which
+zoxide
 zsh

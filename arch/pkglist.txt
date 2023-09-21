@@ -32,6 +32,7 @@ neovim
 nodejs
 noto-fonts
 noto-fonts-cjk
+noto-fonts-emoji
 nushell
 openssh
 pacman-contrib
@@ -43,6 +44,7 @@ rustup
 starship
 sudo
 tokei
+ttf-noto-nerd
 wget
 which
 zsh

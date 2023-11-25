@@ -7,6 +7,7 @@ cmake
 containerd
 direnv
 docker
+docker-compose
 efibootmgr
 emacs
 fd
@@ -29,7 +30,9 @@ lightdm-gtk-greeter
 linux
 make
 man-db
+neofetch
 neovim
+net-tools
 nodejs
 noto-fonts
 noto-fonts-cjk
@@ -38,7 +41,9 @@ nushell
 openssh
 pacman-contrib
 pkgfile
+podman
 polybar
+pueue
 ripgrep
 rofi
 rustup

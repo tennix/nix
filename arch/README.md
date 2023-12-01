@@ -1,15 +1,32 @@
 
 For ARM, use [archboot](https://archboot.com)
 
+Install basic package: git, sudo, vi
+
+Set up user:
+
+``` shell
+useradd tennix -m -G wheel
+visudo # comment out the lines contain wheel to enable wheel group use sudo
+```
+
 ## Install useful packages
 
 ``` shell
 pacman -S --needed - < pkglist.txt
 ```
 
+
+## Sync dot files
+
+``` shell
+chezmoi init tennix --apply
+```
+
 ## Enable System Services
 
 ``` shell
+systemctl enable lightdm
 systemctl enable systemd-timesyncd
 systemctl enable docker
 systemctl enable tailscaled

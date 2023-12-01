@@ -22,6 +22,7 @@ grub
 helix
 helm
 i3-wm
+just
 kitty
 kubectl
 kubectx
@@ -37,6 +38,7 @@ nodejs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+npm
 nushell
 openssh
 pacman-contrib
@@ -44,6 +46,7 @@ pkgfile
 podman
 polybar
 pueue
+pulumi
 ripgrep
 rofi
 rustup
@@ -51,9 +54,11 @@ spice-vdagent
 starship
 sudo
 tailscale
+terminus-font
 tokei
 tree
 ttf-noto-nerd
+vi
 wget
 which
 zoxide

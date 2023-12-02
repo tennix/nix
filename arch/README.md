@@ -14,6 +14,7 @@ visudo # comment out the lines contain wheel to enable wheel group use sudo
 
 ``` shell
 pacman -S --needed - < pkglist.txt
+pkgfile --update
 ```
 
 
@@ -27,6 +28,7 @@ chezmoi init tennix --apply
 
 ``` shell
 systemctl enable lightdm
+systemctl enable sshd
 systemctl enable systemd-timesyncd
 systemctl enable docker
 systemctl enable tailscaled

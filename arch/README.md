@@ -34,6 +34,11 @@ systemctl enable docker
 systemctl enable tailscaled
 ```
 
+### Docker setup
+Add current user to docker group: `sudo gpasswd -a tennix docker`
+
+Create a amd64 docker builder on arm: `docker buildx create --platform=amd64 --name amd64-builder --bootstrap`
+
 ## Install AUR Helper
 
 ``` shell

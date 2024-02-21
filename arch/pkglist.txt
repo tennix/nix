@@ -32,6 +32,7 @@ lightdm-gtk-greeter
 linux
 make
 man-db
+mariadb
 neofetch
 neovim
 net-tools
@@ -46,6 +47,7 @@ pacman-contrib
 pkgfile
 podman
 polybar
+prettier
 pueue
 pulumi
 ripgrep
